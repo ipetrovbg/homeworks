@@ -1,0 +1,21 @@
+table{
+	padding: 10px;
+	border: 1px solid #159dc4;
+    border-collapse:collapse;
+    border-spacing:0;
+}
+tr{
+
+	padding: 15px;
+}
+td{
+	border: 1px solid #159dc4;
+	padding: 15px;
+}
+#city{
+	padding: 10px;
+}
+#sub{
+	width: 100%;
+	padding: 5px;
+}
