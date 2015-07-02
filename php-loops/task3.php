@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 	<title>Задача 3 - php loops - оцветяване на текст</title>
 </head>
-<body>
+<body bgcolor="grey">
 
 	<?php
 
@@ -22,18 +22,18 @@
 				
 				if ($key%2 == 0) {
 					
-					echo '<span style="color: red">' . $value . ' </span>';
+					echo '<span style="color: white">' . $value . ' </span>';
 					
 					if ($key%1 == 0) {
 
-						echo '<span style="color: black">' . $value . ' </span>';
+						echo '<span style="color: green">' . $value . ' </span>';
 
 					}
 
 				}else{
 
 
-					echo '<span style="color: green">' . $value . ' </span>';
+					echo '<span style="color: red">' . $value . ' </span>';
 
 
 				}

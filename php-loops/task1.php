@@ -1,6 +1,6 @@
 <?php
 
-$masiv = array('element1' => 500, 'element2' => 10, 'element3' => 100, 'element4' => 4, 'element5' => 8, 'element6' => 900);
+$masiv = array('element1' => 1000, 'element2' => 1110, 'element3' => 100, 'element4' => 4, 'element5' => 8, 'element6' => 900);
 
 $max = $masiv['element1'];
 $max_key = 'element1';
