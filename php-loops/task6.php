@@ -1,14 +1,12 @@
 <?php
 $character = 'a ';
-$N = 25;
+$N = 30;
 
 for($i = 1; $i < $N; $i++){
-    
-    $masiv[] = $character;	
 
-	foreach ($masiv as $key => $value) {
+	for ($s = 0; $s < $i; $s++) {
 
-		echo $value;		
+		echo $character;		
 
 	}
 	
