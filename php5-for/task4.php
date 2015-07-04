@@ -1,6 +1,6 @@
 <?php
 echo '<table border="1">';
-
+$var = 0;
 	for ($i=1; $i <= 10; $i++) {
 
 		echo '<tr>';
@@ -15,15 +15,22 @@ echo '<table border="1">';
 				echo '<td>';
 
 				echo "$j * $i = $new";
-
+				
 				echo "</td>";
 
+				
+
+				$var = 10 - $sum;
+
+				
+
 			}
 
-			if ($i != 10) {
+			if($i != 10){
 
-				echo '<td colspan="10"></td>';
+				echo '<td colspan="' . $var . '"></td>';
 			}
+			
 
 		echo "</tr>";
 
