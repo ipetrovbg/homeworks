@@ -1,0 +1,19 @@
+1.
+a)
+SELECT * FROM `magics` JOIN `feelings` ON `magics`.`feeling`=`feelings`.`feeling` WHERE `feelings`.`length` > 60
+
+b)
+SELECT * FROM `magics` JOIN `feelings` ON `magics`.`feeling`=`feelings`.`feeling` WHERE `feelings`.`strength` > 50 AND `feelings`.`strength` < 75
+
+c)
+SELECT * FROM `magics` LEFT JOIN `feelings` ON `magics`.`feeling`=`feelings`.`feeling` WHERE 1
+
+2.
+a)
+SELECT *, COUNT(*), AVG(`weight`), SUM(`weight`) FROM `dlops` WHERE 1
+
+b)
+SELECT `status`, COUNT(*), AVG(`weight`), SUM(`weight`) FROM `dlops` GROUP BY `status` 
+
+c)
+SELECT MAX(`weight`), MIN(`weight`) FROM `dlops` WHERE 1
