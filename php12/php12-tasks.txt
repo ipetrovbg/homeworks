@@ -6,7 +6,7 @@ b)
 SELECT * FROM `magics` JOIN `feelings` ON `magics`.`feeling`=`feelings`.`feeling` WHERE `feelings`.`strength` > 50 AND `feelings`.`strength` < 75
 
 c)
-SELECT * FROM `magics` JOIN `feelings` ON `magics`.`feeling`=`feelings`.`feeling` WHERE `feelings`.`need` = 'understanding' OR`feelings`.`need` = 'moving' OR `feelings`.`need` = 'development'
+SELECT * FROM `magics` JOIN `feelings` ON `magics`.`feeling` = `feelings`.`feeling` WHERE `feelings`.`need` = 'understanding' OR `feelings`.`need` = 'moving' OR `feelings`.`need` = 'development'
 
 2.
 a)
